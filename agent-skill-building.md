@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Using Claude Code Skills to Write and Ship a PR Description
+# Using Claude Code Skills to write and ship a PR Description
 
 This walkthrough covers the full flow of using a Claude Code skill — from discovering available skills, running the `pr-description` skill, to committing and pushing your changes to GitHub.
 
