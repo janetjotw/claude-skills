@@ -8,7 +8,7 @@ This walkthrough covers the full flow of using a Claude Code skill — from disc
 
 ---
 
-## Step 1: Open the Skills Menu
+## Step 1: Open the Skills menu
 
 Type `/skills` in the Claude Code prompt to open the skills dialog. This shows all available skills configured for your project.
 
@@ -16,7 +16,7 @@ Type `/skills` in the Claude Code prompt to open the skills dialog. This shows a
 /skills
 ```
 
-Skills are stored as markdown files under `~/.claude/skills/<skill-name>/SKILL.md`.
+Skills are stored as Markdown files under `~/.claude/skills/<skill-name>/SKILL.md`.
 
 ---
 
@@ -64,7 +64,7 @@ git diff               # any unstaged changes
 
 ---
 
-## Step 3: Commit the Changes
+## Step 3: Commit the changes
 
 Once you're happy with the changes (e.g., an updated README), ask Claude to commit:
 
