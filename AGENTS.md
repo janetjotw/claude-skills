@@ -20,7 +20,6 @@ claude-skills/
     ├── agents/                ← role definitions, each with exit criteria
     ├── skills/                ← task-specific instructions (one folder per skill)
     │   └── <task>/SKILL.md
-    └── commands/              ← optional reusable prompts
 ```
 
 ## How the pieces differ
@@ -30,7 +29,6 @@ claude-skills/
 | `AGENTS.md` / `CLAUDE.md` | Always | Project context and conventions |
 | `skills/<task>/SKILL.md` | The request matches the skill's `description` | A repeatable task with a defined output |
 | `agents/<role>.md` | The role is invoked | A persona with scope and exit criteria |
-| `commands/<command>.md` | The user runs the command | A reusable prompt for a session |
 
 ## Writing conventions
 
