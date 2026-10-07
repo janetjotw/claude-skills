@@ -17,7 +17,6 @@ claude-skills/
 ├── README.md                  ← overview and structure guide
 ├── agent-skill-building.md    ← main tutorial (PR description skill)
 └── .claude/
-    ├── agents/                ← role definitions, each with exit criteria
     ├── skills/                ← task-specific instructions (one folder per skill)
     │   └── <task>/SKILL.md
 ```
