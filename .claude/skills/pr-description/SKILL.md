@@ -19,3 +19,11 @@ Brief context on why this change is needed
 - Bullet points of specific changes made
 - Group related changes together
 - Mention any files deleted or renamed
+
+The description is complete when all of these are true:
+
+- It has the three sections What, Why, and Changes, in that order.
+- What is exactly one sentence.
+- Every file in the `git diff main...HEAD` output is covered by a bullet under Changes.
+- Deleted and renamed files are named.
+- No placeholder text such as "TODO" or "describe here" remains.
