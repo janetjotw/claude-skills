@@ -18,7 +18,7 @@ claude-skills/
 ├── agent-skill-building.md    ← main tutorial (PR description skill)
 └── .claude/
     ├── skills/                ← task-specific instructions (one folder per skill)
-    │   └── <task>/SKILL.md
+       └── <task>/SKILL.md
 ```
 
 ## How the pieces differ
