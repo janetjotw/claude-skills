@@ -27,7 +27,6 @@ claude-skills/
 |---|---|---|
 | `AGENTS.md` / `CLAUDE.md` | Always | Project context and conventions |
 | `skills/<task>/SKILL.md` | The request matches the skill's `description` | A repeatable task with a defined output |
-| `agents/<role>.md` | The role is invoked | A persona with scope and exit criteria |
 
 ## Writing conventions
 
