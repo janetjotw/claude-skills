@@ -16,7 +16,7 @@ Type `/skills` in the Claude Code prompt to open the skills dialog. This shows a
 /skills
 ```
 
-All the skills you develop are stored as Markdown files under `~/.claude/skills/<skill-name>/SKILL.md`.
+All the skills you develop are stored as Markdown files under `.claude/skills/<skill-name>/SKILL.md`.
 
 ---
 
@@ -106,6 +106,11 @@ This pushes to `origin/main`. If a GitHub Actions deployment workflow is configu
 
 The `pr-description` skill is defined at:
 
+```
+.claude/skills/pr-description/SKILL.md
+```
+
+# Note: In your home folder, you'd use it from any project because it isn't tied to one repo.
 ```
 ~/.claude/skills/pr-description/SKILL.md
 ```
